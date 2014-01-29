@@ -1,0 +1,203 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "8b58abb4bef3f736f6ce6e6687dc34e1",
+    "packages": [
+        {
+            "name": "eloquent/composer-npm-bridge",
+            "version": "dev-feature/version-2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eloquent/composer-npm-bridge.git",
+                "reference": "9b12846e9e3df884dded12065a85e07c6233b6d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/9b12846e9e3df884dded12065a85e07c6233b6d8",
+                "reference": "9b12846e9e3df884dded12065a85e07c6233b6d8",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0",
+                "icecave/isolator": "~2",
+                "php": ">=5.3",
+                "symfony/process": "~2"
+            },
+            "require-dev": {
+                "composer/composer": "dev-master@dev",
+                "icecave/archer": "~1"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Eloquent\\Composer\\NpmBridge\\NpmBridgePlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Eloquent\\Composer\\NpmBridge\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                }
+            ],
+            "description": "NPM integration for Composer packages.",
+            "homepage": "https://github.com/eloquent/composer-npm-bridge",
+            "keywords": [
+                "Bridge",
+                "composer",
+                "composer-plugin",
+                "integration",
+                "npm",
+                "package",
+                "plugin"
+            ],
+            "time": "2014-01-29 07:04:11"
+        },
+        {
+            "name": "ezzatron/composer-npm-bridge-fixture-dependency",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency.git",
+                "reference": "bd02e4c11e57e2decf5e4693e87286a5f2853af0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ezzatron/composer-npm-bridge-fixture-dependency/zipball/bd02e4c11e57e2decf5e4693e87286a5f2853af0",
+                "reference": "bd02e4c11e57e2decf5e4693e87286a5f2853af0",
+                "shasum": ""
+            },
+            "require": {
+                "eloquent/composer-npm-bridge": "dev-feature/version-2@dev"
+            },
+            "type": "library",
+            "support": {
+                "source": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency/tree/master",
+                "issues": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency/issues"
+            },
+            "time": "2014-01-26 10:57:45"
+        },
+        {
+            "name": "icecave/isolator",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IcecaveStudios/isolator.git",
+                "reference": "2f3fbfcee90790fb3ddde9d4288a2a927cdf6dd6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/IcecaveStudios/isolator/zipball/2f3fbfcee90790fb3ddde9d4288a2a927cdf6dd6",
+                "reference": "2f3fbfcee90790fb3ddde9d4288a2a927cdf6dd6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "icecave/archer": "~0.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Icecave\\Isolator": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Harris",
+                    "email": "james.harris@icecave.com.au",
+                    "homepage": "https://github.com/jmalloc"
+                }
+            ],
+            "description": "Isolate PHP tests from the global environment.",
+            "homepage": "https://github.com/IcecaveStudios/isolator",
+            "keywords": [
+                "fake",
+                "mock",
+                "phake",
+                "phpunit",
+                "test",
+                "unit"
+            ],
+            "time": "2013-06-04 05:00:29"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v2.4.1",
+            "target-dir": "Symfony/Component/Process",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Process.git",
+                "reference": "58fdccb311e44f28866f976c2d7b3227e9f713db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/58fdccb311e44f28866f976c2d7b3227e9f713db",
+                "reference": "58fdccb311e44f28866f976c2d7b3227e9f713db",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Process\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-01-05 02:10:50"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "ezzatron/composer-npm-bridge-fixture-dependency": 20,
+        "eloquent/composer-npm-bridge": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
