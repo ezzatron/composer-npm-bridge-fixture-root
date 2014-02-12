@@ -2,7 +2,7 @@
     "name": "ezzatron/composer-npm-bridge-fixture-root",
     "require": {
         "ezzatron/composer-npm-bridge-fixture-dependency": "dev-master@dev",
-        "eloquent/composer-npm-bridge": "dev-Magomogo-check-dev-requires@dev"
+        "eloquent/composer-npm-bridge": "~2.1.0"
     },
     "repositories": [
         {

@@ -3,20 +3,20 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "85860fe2987827dd90f068ce55d01dd0",
+    "hash": "f5bffcb79ebd4420df49d3c8f2d9ddec",
     "packages": [
         {
             "name": "eloquent/composer-npm-bridge",
-            "version": "dev-Magomogo-check-dev-requires",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/eloquent/composer-npm-bridge.git",
-                "reference": "aefd9b95f2bccc8f412904b09214cc1a14eef08b"
+                "reference": "69d603458acf92ec3ad802f00f49d7066be5f7fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/aefd9b95f2bccc8f412904b09214cc1a14eef08b",
-                "reference": "aefd9b95f2bccc8f412904b09214cc1a14eef08b",
+                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/69d603458acf92ec3ad802f00f49d7066be5f7fc",
+                "reference": "69d603458acf92ec3ad802f00f49d7066be5f7fc",
                 "shasum": ""
             },
             "require": {
@@ -59,7 +59,7 @@
                 "package",
                 "plugin"
             ],
-            "time": "2014-02-12 03:45:24"
+            "time": "2014-02-12 04:06:34"
         },
         {
             "name": "ezzatron/composer-npm-bridge-fixture-dependency",
@@ -67,23 +67,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency.git",
-                "reference": "fc86cd64418b5227a98f385cfea72a28c50a323c"
+                "reference": "26e39293d0e188c2d517045ca61b8052fe0a8b98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezzatron/composer-npm-bridge-fixture-dependency/zipball/fc86cd64418b5227a98f385cfea72a28c50a323c",
-                "reference": "fc86cd64418b5227a98f385cfea72a28c50a323c",
+                "url": "https://api.github.com/repos/ezzatron/composer-npm-bridge-fixture-dependency/zipball/26e39293d0e188c2d517045ca61b8052fe0a8b98",
+                "reference": "26e39293d0e188c2d517045ca61b8052fe0a8b98",
                 "shasum": ""
             },
             "require": {
-                "eloquent/composer-npm-bridge": "dev-Magomogo-check-dev-requires@dev"
+                "eloquent/composer-npm-bridge": "~2.1.0"
             },
             "type": "library",
             "support": {
                 "source": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency/tree/master",
                 "issues": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency/issues"
             },
-            "time": "2014-02-12 03:49:00"
+            "time": "2014-02-12 04:39:48"
         },
         {
             "name": "icecave/isolator",
@@ -143,8 +143,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "ezzatron/composer-npm-bridge-fixture-dependency": 20,
-        "eloquent/composer-npm-bridge": 20
+        "ezzatron/composer-npm-bridge-fixture-dependency": 20
     },
     "platform": [
 
