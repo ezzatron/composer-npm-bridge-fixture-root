@@ -1,13 +1,13 @@
 {
     "name": "ezzatron/composer-npm-bridge-fixture-root",
     "require": {
-        "ezzatron/composer-npm-bridge-fixture-dependency": "dev-master@dev",
-        "eloquent/composer-npm-bridge": "~2.1.0"
+        "ezzatron/composer-npm-bridge-fixture-dependency": "dev-master",
+        "eloquent/composer-npm-bridge": "dev-develop"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency.git"
+            "url": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency"
         }
     ]
 }

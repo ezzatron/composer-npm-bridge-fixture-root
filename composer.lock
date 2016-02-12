@@ -1,32 +1,36 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "f5bffcb79ebd4420df49d3c8f2d9ddec",
+    "hash": "33ad1f84f6850bcc98e32181711c0ba9",
+    "content-hash": "7bff93c59b10757372066991f65a09d6",
     "packages": [
         {
             "name": "eloquent/composer-npm-bridge",
-            "version": "2.1.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/eloquent/composer-npm-bridge.git",
-                "reference": "69d603458acf92ec3ad802f00f49d7066be5f7fc"
+                "reference": "6683d6a0c3617b25406df32f5e350bf27d5ec58d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/69d603458acf92ec3ad802f00f49d7066be5f7fc",
-                "reference": "69d603458acf92ec3ad802f00f49d7066be5f7fc",
+                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/6683d6a0c3617b25406df32f5e350bf27d5ec58d",
+                "reference": "6683d6a0c3617b25406df32f5e350bf27d5ec58d",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0",
-                "icecave/isolator": "~2",
+                "composer-plugin-api": "^1",
+                "icecave/isolator": "^2",
                 "php": ">=5.3"
             },
             "require-dev": {
-                "composer/composer": "dev-master@dev",
-                "icecave/archer": "~1"
+                "composer/composer": "dev-master",
+                "eloquent/phony": "^0.8",
+                "icecave/archer": "dev-develop",
+                "phpunit/phpunit": "^4"
             },
             "type": "composer-plugin",
             "extra": {
@@ -59,7 +63,7 @@
                 "package",
                 "plugin"
             ],
-            "time": "2014-02-12 04:06:34"
+            "time": "2016-02-12 05:21:25"
         },
         {
             "name": "ezzatron/composer-npm-bridge-fixture-dependency",
@@ -67,48 +71,51 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency.git",
-                "reference": "26e39293d0e188c2d517045ca61b8052fe0a8b98"
+                "reference": "f7ab4eda4ffe9865ea06b2a9f36eca91f7b74ded"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezzatron/composer-npm-bridge-fixture-dependency/zipball/26e39293d0e188c2d517045ca61b8052fe0a8b98",
-                "reference": "26e39293d0e188c2d517045ca61b8052fe0a8b98",
+                "url": "https://api.github.com/repos/ezzatron/composer-npm-bridge-fixture-dependency/zipball/f7ab4eda4ffe9865ea06b2a9f36eca91f7b74ded",
+                "reference": "f7ab4eda4ffe9865ea06b2a9f36eca91f7b74ded",
                 "shasum": ""
             },
             "require": {
-                "eloquent/composer-npm-bridge": "~2.1.0"
+                "eloquent/composer-npm-bridge": "dev-develop"
             },
             "type": "library",
             "support": {
                 "source": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency/tree/master",
                 "issues": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency/issues"
             },
-            "time": "2014-02-12 04:39:48"
+            "time": "2016-02-12 05:27:53"
         },
         {
             "name": "icecave/isolator",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/IcecaveStudios/isolator.git",
-                "reference": "2f3fbfcee90790fb3ddde9d4288a2a927cdf6dd6"
+                "reference": "97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/IcecaveStudios/isolator/zipball/2f3fbfcee90790fb3ddde9d4288a2a927cdf6dd6",
-                "reference": "2f3fbfcee90790fb3ddde9d4288a2a927cdf6dd6",
+                "url": "https://api.github.com/repos/IcecaveStudios/isolator/zipball/97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5",
+                "reference": "97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3"
             },
             "require-dev": {
-                "icecave/archer": "~0.4"
+                "icecave/archer": "~1"
+            },
+            "suggest": {
+                "eloquent/asplode": "Drop-in exception-based error handling."
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Icecave\\Isolator": "lib"
+                "psr-4": {
+                    "Icecave\\Isolator\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -122,7 +129,7 @@
                     "homepage": "https://github.com/jmalloc"
                 }
             ],
-            "description": "Isolate PHP tests from the global environment.",
+            "description": "Dependency injection for global functions.",
             "homepage": "https://github.com/IcecaveStudios/isolator",
             "keywords": [
                 "fake",
@@ -132,23 +139,18 @@
                 "test",
                 "unit"
             ],
-            "time": "2013-06-04 05:00:29"
+            "time": "2014-08-12 03:16:11"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "ezzatron/composer-npm-bridge-fixture-dependency": 20
+        "ezzatron/composer-npm-bridge-fixture-dependency": 20,
+        "eloquent/composer-npm-bridge": 20
     },
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
 }
