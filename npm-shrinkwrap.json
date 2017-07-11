@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "moment": {
-      "version": "2.11.2",
-      "from": "moment@2.11.2",
-      "resolved": "https://registry.npmjs.org/moment/-/moment-2.11.2.tgz"
-    }
-  }
-}

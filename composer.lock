@@ -4,26 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "33ad1f84f6850bcc98e32181711c0ba9",
-    "content-hash": "7bff93c59b10757372066991f65a09d6",
+    "content-hash": "1a599563526b0bdc522a3a27d4099945",
     "packages": [
         {
             "name": "eloquent/composer-npm-bridge",
-            "version": "dev-develop",
+            "version": "dev-npm-lock",
             "source": {
                 "type": "git",
                 "url": "https://github.com/eloquent/composer-npm-bridge.git",
-                "reference": "6683d6a0c3617b25406df32f5e350bf27d5ec58d"
+                "reference": "0643df1fdf2c15feb2ea0d75e6559ba1b80bc18a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/6683d6a0c3617b25406df32f5e350bf27d5ec58d",
-                "reference": "6683d6a0c3617b25406df32f5e350bf27d5ec58d",
+                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/0643df1fdf2c15feb2ea0d75e6559ba1b80bc18a",
+                "reference": "0643df1fdf2c15feb2ea0d75e6559ba1b80bc18a",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1",
-                "icecave/isolator": "^2",
                 "php": ">=5.3"
             },
             "require-dev": {
@@ -63,7 +61,7 @@
                 "package",
                 "plugin"
             ],
-            "time": "2016-02-12 05:21:25"
+            "time": "2017-07-11 04:03:41"
         },
         {
             "name": "ezzatron/composer-npm-bridge-fixture-dependency",
@@ -71,75 +69,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency.git",
-                "reference": "f7ab4eda4ffe9865ea06b2a9f36eca91f7b74ded"
+                "reference": "2760048216e7ae134d39cc3b9501ef713d78542f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezzatron/composer-npm-bridge-fixture-dependency/zipball/f7ab4eda4ffe9865ea06b2a9f36eca91f7b74ded",
-                "reference": "f7ab4eda4ffe9865ea06b2a9f36eca91f7b74ded",
+                "url": "https://api.github.com/repos/ezzatron/composer-npm-bridge-fixture-dependency/zipball/2760048216e7ae134d39cc3b9501ef713d78542f",
+                "reference": "2760048216e7ae134d39cc3b9501ef713d78542f",
                 "shasum": ""
             },
             "require": {
-                "eloquent/composer-npm-bridge": "dev-develop"
+                "eloquent/composer-npm-bridge": "dev-npm-lock"
             },
             "type": "library",
             "support": {
                 "source": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency/tree/master",
                 "issues": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency/issues"
             },
-            "time": "2016-02-12 05:27:53"
-        },
-        {
-            "name": "icecave/isolator",
-            "version": "2.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/IcecaveStudios/isolator.git",
-                "reference": "97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/IcecaveStudios/isolator/zipball/97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5",
-                "reference": "97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "icecave/archer": "~1"
-            },
-            "suggest": {
-                "eloquent/asplode": "Drop-in exception-based error handling."
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Icecave\\Isolator\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "James Harris",
-                    "email": "james.harris@icecave.com.au",
-                    "homepage": "https://github.com/jmalloc"
-                }
-            ],
-            "description": "Dependency injection for global functions.",
-            "homepage": "https://github.com/IcecaveStudios/isolator",
-            "keywords": [
-                "fake",
-                "mock",
-                "phake",
-                "phpunit",
-                "test",
-                "unit"
-            ],
-            "time": "2014-08-12 03:16:11"
+            "time": "2017-07-11 05:33:54"
         }
     ],
     "packages-dev": [],

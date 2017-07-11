@@ -1,6 +1,7 @@
 {
+    "private": true,
     "dependencies": {
-        "moment": "*"
+        "moment": "^2"
     },
     "devDependencies": {
         "debug": "*"

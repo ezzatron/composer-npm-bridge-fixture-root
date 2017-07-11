@@ -2,7 +2,7 @@
     "name": "ezzatron/composer-npm-bridge-fixture-root",
     "require": {
         "ezzatron/composer-npm-bridge-fixture-dependency": "dev-master",
-        "eloquent/composer-npm-bridge": "dev-develop"
+        "eloquent/composer-npm-bridge": "dev-npm-lock"
     },
     "repositories": [
         {
