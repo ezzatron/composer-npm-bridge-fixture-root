@@ -1,34 +1,36 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1a599563526b0bdc522a3a27d4099945",
+    "content-hash": "a3963e74f0b2ae28bf39936965dff829",
     "packages": [
         {
             "name": "eloquent/composer-npm-bridge",
-            "version": "dev-npm-lock",
+            "version": "dev-composer-2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/eloquent/composer-npm-bridge.git",
-                "reference": "0643df1fdf2c15feb2ea0d75e6559ba1b80bc18a"
+                "reference": "876f3fd5836bc42075e00b6339aac11edc1c1527"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/0643df1fdf2c15feb2ea0d75e6559ba1b80bc18a",
-                "reference": "0643df1fdf2c15feb2ea0d75e6559ba1b80bc18a",
+                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/876f3fd5836bc42075e00b6339aac11edc1c1527",
+                "reference": "876f3fd5836bc42075e00b6339aac11edc1c1527",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1",
-                "php": ">=5.3"
+                "composer-plugin-api": "^2",
+                "php": ">=7.2"
             },
             "require-dev": {
-                "composer/composer": "dev-master",
-                "eloquent/phony": "^0.8",
-                "icecave/archer": "dev-develop",
-                "phpunit/phpunit": "^4"
+                "composer/composer": "^2",
+                "eloquent/code-style": "^1",
+                "eloquent/phony-phpunit": "^6",
+                "errors/exceptions": "^0.2",
+                "friendsofphp/php-cs-fixer": "^2",
+                "phpunit/phpunit": "^8"
             },
             "type": "composer-plugin",
             "extra": {
@@ -61,7 +63,11 @@
                 "package",
                 "plugin"
             ],
-            "time": "2017-07-11 04:03:41"
+            "support": {
+                "issues": "https://github.com/eloquent/composer-npm-bridge/issues",
+                "source": "https://github.com/eloquent/composer-npm-bridge/tree/composer-2"
+            },
+            "time": "2020-11-22T23:38:25+00:00"
         },
         {
             "name": "ezzatron/composer-npm-bridge-fixture-dependency",
@@ -69,23 +75,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency.git",
-                "reference": "2760048216e7ae134d39cc3b9501ef713d78542f"
+                "reference": "97e52ff414da4b16c4a48356b6d23ee19d193681"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezzatron/composer-npm-bridge-fixture-dependency/zipball/2760048216e7ae134d39cc3b9501ef713d78542f",
-                "reference": "2760048216e7ae134d39cc3b9501ef713d78542f",
+                "url": "https://api.github.com/repos/ezzatron/composer-npm-bridge-fixture-dependency/zipball/97e52ff414da4b16c4a48356b6d23ee19d193681",
+                "reference": "97e52ff414da4b16c4a48356b6d23ee19d193681",
                 "shasum": ""
             },
             "require": {
-                "eloquent/composer-npm-bridge": "dev-npm-lock"
+                "eloquent/composer-npm-bridge": "dev-composer-2"
             },
+            "default-branch": true,
             "type": "library",
             "support": {
                 "source": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency/tree/master",
                 "issues": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency/issues"
             },
-            "time": "2017-07-11 05:33:54"
+            "time": "2020-11-23T00:12:13+00:00"
         }
     ],
     "packages-dev": [],
@@ -98,5 +105,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
